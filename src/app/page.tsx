@@ -12,7 +12,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
       <NavbarLayoutFloatingInline
         logoSrc="/images/logo.svg"
-        logoAlt="GiggleCoin"
         navItems={[
           { name: "Hero", id: "hero" },
           { name: "About", id: "about" },
@@ -55,7 +54,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
-          logoAlt="GiggleCoin Logo"
           logoText="GiggleCoin"
           columns={[
             { items: [
