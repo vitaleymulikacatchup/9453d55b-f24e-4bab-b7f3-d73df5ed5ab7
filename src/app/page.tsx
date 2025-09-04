@@ -67,7 +67,6 @@ export default function Home() {
               { label: "Help Center", onClick: () => { /* handle click */ } }
             ] }
           ]}
-          onPrivacyClick={() => { /* handle click */ }}
         />
       </div>
     </SiteThemeProvider>
