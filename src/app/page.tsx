@@ -67,7 +67,6 @@ export default function Home() {
               { label: "Help Center", onClick: () => { /* handle click */ } }
             ] }
           ]}
-          copyrightText="© 2023 GiggleCoin. All rights reserved."
           onPrivacyClick={() => { /* handle click */ }}
         />
       </div>
